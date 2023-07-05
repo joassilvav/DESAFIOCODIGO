@@ -1,4 +1,4 @@
-def desafio4():
+def desafiofour():
     p = str(input("digite uma frase: "))
     #x =(p.split('\t'))
     nvv = []
