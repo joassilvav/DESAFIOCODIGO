@@ -1,4 +1,5 @@
-palav = str(input('digite um palindromo: ')).lower()
-palavinv = palav[::-1]
+def desafiofive():
+    palav = str(input('digite um palindromo: ')).lower()
+    palavinv = palav[::-1]
 
-print(palav == palavinv)
+    print(palav == palavinv)
