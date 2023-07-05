@@ -1,11 +1,17 @@
+def desafio4():
+    p = str(input("digite uma frase: "))
+    #x =(p.split('\t'))
+    nvv = []
+    x = [c for c in p]
+    x[0] = x[0].capitalize()
 
-p = "hello, \thow are you? \ti'm fine,\tthank you."
-x =(p.split('\t'))
-nvv = []
-for i in x:
-    j = i.capitalize()
-    nvv.append(j)
-print(nvv)
-print(''.join(nvv))
+    for i in range(len(x)):
+        if i > 2:
+            if x[i - 2] == '.' or x[i - 2] == '?' or x[i - 2] == '!':
+                x[i] = x[i].capitalize()
+        #j = i.capitalize()
+        #nvv.append(j)
+    #print(nvv)
+    print(''.join(x))
 
 
