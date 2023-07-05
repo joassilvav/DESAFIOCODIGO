@@ -1,6 +1,6 @@
 import dasafio1, desafio2
 
-print("Desafio 1- manipulação de string. revertendo a ordem das palavras. \n")
+print("Desafio 1- manipulação de string. Revertendo a ordem das palavras. \nDesafio 2 - Removendo duplicados. \n" )
 escolha = int(input('Escolha o numero do desafio: '))
 
 match escolha:
