@@ -3,7 +3,7 @@ def desafioum():
     frases = str(input('Digite uma frase: '))
     #frases = frases.strip()
 
-# usando a funÃ§Ã£o
+# usando a função
     frase_esplitada = ((splitando(frases)))
 #1 tentativa
     k = ""
@@ -11,7 +11,7 @@ def desafioum():
         k += frase_esplitada[-1 - x] + " "
     print(k.strip())
 
-# colocando em List comprehension
+# colocando em List comprehension.
     [print(frase_esplitada[-1-x], end=" ") for x in range(len(frase_esplitada))]
 
 def splitando(frase):
