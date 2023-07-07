@@ -1,5 +1,6 @@
 import dasafio1, desafio2, desafio4, desafio1Seminput, desafio2Seminput
 import desafio3
+import desafio3Seminput
 import desafio5
 
 print("Desafio 1- manipulação de string. Revertendo a ordem das palavras. "
@@ -24,7 +25,11 @@ match escolha:
         else:
             desafio2.desafioo2()
     case 3:
-        desafio3.desafiotree()
+        esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
+        if esc == 1:
+            desafio3Seminput.desafiotreesemimput()
+        else:
+            desafio3.desafiotree()
     case 4:
         desafio4.desafiofour()
     case 5:
