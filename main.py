@@ -1,4 +1,4 @@
-import dasafio1, desafio2, desafio4, desafio1Seminput, desafio2Seminput
+import desafio1, desafio2, desafio4, desafio1Seminput, desafio2Seminput
 import desafio3, desafio4Seminput
 import desafio3Seminput
 import desafio5
@@ -18,7 +18,7 @@ match escolha:
         if esc == 1:
             desafio1Seminput.desafio1seminput()
         else:
-            dasafio1.desafioum()
+            desafio1.desafioum()
     case 2:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
