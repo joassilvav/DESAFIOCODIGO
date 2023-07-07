@@ -2,6 +2,7 @@ import dasafio1, desafio2, desafio4, desafio1Seminput, desafio2Seminput
 import desafio3, desafio4Seminput
 import desafio3Seminput
 import desafio5
+import desafio5Seminput
 
 print("Desafio 1- manipulação de string. Revertendo a ordem das palavras. "
       "\nDesafio 2 - Removendo duplicados. "
@@ -37,6 +38,10 @@ match escolha:
         else:
             desafio4.desafiofour()
     case 5:
-        desafio5.desafiofive()
+        esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
+        if esc == 1:
+            desafio5Seminput.desafiofiveseminput()
+        else:
+            desafio5.desafiofive()
     case _:
         print("Inválido")
