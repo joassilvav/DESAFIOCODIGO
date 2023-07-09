@@ -3,7 +3,7 @@ def desafiofive(palav):
     palavinv = palav[::-1]
 
     print(palav == palavinv)
-    if palav == palavinv:
+    if palav.lower() == palavinv.lower():
         return 'True'
     else:
         return 'False'
