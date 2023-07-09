@@ -1,8 +1,4 @@
-import desafio1, desafio2, desafio4, desafio1Seminput, desafio2Seminput
-import desafio3, desafio4Seminput
-import desafio3Seminput
-import desafio5
-import desafio5Seminput
+import desafio1, desafio2, desafio3, desafio4, desafio5
 
 print("Desafio 1- manipulação de string. Revertendo a ordem das palavras. "
       "\nDesafio 2 - Removendo duplicados. "
@@ -16,32 +12,32 @@ match escolha:
     case 1:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            desafio1Seminput.desafio1seminput()
+            print(desafio1.getTestedeCaso())
         else:
-            desafio1.desafioum()
+            print(desafio1.desafioum((str(input('digite a frase:')))))
     case 2:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            desafio2Seminput.desafioo2semimput()
+            print(desafio2.getTestedeCaso())
         else:
-            desafio2.desafioo2()
+            print(desafio2.remov((str(input('digite a frase:')))))
     case 3:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            desafio3Seminput.desafiotreesemimput()
+            print(desafio3.getTestedeCaso())
         else:
-            desafio3.desafiotree()
+            print(desafio3.desafiotree((str(input('digite a frase:')))))
     case 4:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            desafio4Seminput.desafiofourseminput()
+            print(desafio4.getTestedeCaso())
         else:
-            desafio4.desafiofour()
+            print(desafio4.desafiofour((str(input('digite a frase:')))))
     case 5:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            desafio5Seminput.desafiofiveseminput()
+            print(desafio5.getTestedeCaso())
         else:
-            desafio5.desafiofive()
+            print(desafio5.desafiofive(str(input('digite a frase:'))))
     case _:
         print("Inválido")
