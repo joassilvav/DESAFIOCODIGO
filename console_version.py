@@ -12,31 +12,31 @@ match escolha:
     case 1:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            print(desafio1.getTestedeCaso())
+            print(desafio1.desafioum(desafio1.getTestedeCaso()))
         else:
             print(desafio1.desafioum((str(input('digite a frase:')))))
     case 2:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            print(desafio2.getTestedeCaso())
+            print(desafio2.remov(desafio2.getTestedeCaso()))
         else:
             print(desafio2.remov((str(input('digite a frase:')))))
     case 3:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            print(desafio3.getTestedeCaso())
+            print(desafio3.desafiotree(desafio3.getTestedeCaso()))
         else:
             print(desafio3.desafiotree((str(input('digite a frase:')))))
     case 4:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            print(desafio4.getTestedeCaso())
+            print(desafio4.desafiofour(desafio4.getTestedeCaso()))
         else:
             print(desafio4.desafiofour((str(input('digite a frase:')))))
     case 5:
         esc = int(input('1- Ver frase do desafio \n2- Frase nova \n'))
         if esc == 1:
-            print(desafio5.getTestedeCaso())
+            print(desafio5.desafiofive(desafio5.getTestedeCaso()))
         else:
             print(desafio5.desafiofive(str(input('digite a frase:'))))
     case _:
