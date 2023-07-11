@@ -4,8 +4,8 @@ def desafioum(frases):
     frase_esplitada = ((splitando(frases)))
 
 # colocando em List comprehension.
-    return [(frase_esplitada[-1-x] ) for x in range(len(frase_esplitada))]
-
+    nv = [(frase_esplitada[-1-x] ) for x in range(len(frase_esplitada))]
+    return ' '.join(nv)
 def splitando(frase):
     return frase.split(" ")
 
