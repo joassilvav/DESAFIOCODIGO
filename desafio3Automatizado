@@ -1,0 +1,5 @@
+palav = 'babad'
+palavin = palav[::-1]
+cc = ''
+n = [cc:= palavin[i:j+1] for i in range(len(palav)) for j in range(len(palav)) if j>=i if palavin[i:j+1] in palav if len(palavin[i:j+1]) >= len(cc)]
+print(' '.join(n))
